@@ -1,5 +1,11 @@
+import PokemonCard from "./components/PokemonCard"
+
 function App() {
- return "Hello react world";
+  return (
+    <>
+      <PokemonCard/>
+    </>
+  );
 }
 
-export default App
+export default App;
