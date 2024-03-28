@@ -1,0 +1,17 @@
+body{
+    font-size: 3rem;
+}
+
+.main{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.pokeImg{
+    width: 35vw;
+    padding: 1rem;
+    height: auto;
+    border: 1px black solid;
+    border-radius: 25%;
+}

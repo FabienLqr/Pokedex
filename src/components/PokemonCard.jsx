@@ -10,8 +10,8 @@ PokemonCard.propTypes ={
 function PokemonCard({pokemon}) {
   const noImg="???"
     return <>
-      {pokemon.imgSrc!==undefined? <img src={pokemon.imgSrc}/> : <p>{noImg}</p>}
-      <figcaption>{pokemon.name}</figcaption>
+      {pokemon.imgSrc!==undefined? <img src={pokemon.imgSrc} className="pokeImg"/> : <p>{noImg}</p>}
+      <figcaption>{pokemon.number} {pokemon.name}</figcaption>
     </>;
   }
   
