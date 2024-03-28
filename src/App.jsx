@@ -31,7 +31,6 @@ const pokemonList = [
 function App() {
   const [pokemonIndex, setPokemonIndex] = useState(0);
 
-
   return (
     <>
       <PokemonCard pokemon= {pokemonList[pokemonIndex]}/>
